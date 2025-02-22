@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EF_Core_03.Entities
 {
-    internal class PartTimeEmployee : Employee
+    internal class PartTimeEmployee : Employees
     {
         public int NumberOfHours { get; set; }
 

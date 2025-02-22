@@ -7,7 +7,9 @@ namespace EF_Core_03
     {
         static void Main(string[] args)
         {
-            AppDbContext db = new AppDbContext();
+            using AppDbContext db = new AppDbContext();
+
+            #region Inheritance Example
 
             //FullTimeEmployee FullTime01 = new FullTimeEmployee()
             //{
@@ -93,7 +95,12 @@ namespace EF_Core_03
             //foreach(var result in db.FullTimeEmployees)
             //{
             //    Console.WriteLine(result.Name);
-            //}
+            //} 
+            #endregion
+
+           
+
+
 
         }
     }

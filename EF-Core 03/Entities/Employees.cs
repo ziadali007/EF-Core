@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EF_Core_03.Entities
 {
-    internal abstract class Employee
+    internal abstract class Employees
     {
         public int Id { get; set; }
 

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EF_Core_03.Entities
 {
-    internal class FullTimeEmployee : Employee
+    internal class FullTimeEmployee : Employees
     {
         public double Salary { get; set; }
     }
